@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /fetchApp
 
 # Step 3: Copy the current directory contents into the container at /app
-COPY . /fetchApp
+COPY . /Fetch
 
 # Step 4: Install dependencies
 # This assumes you have a requirements.txt file with your app's dependencies listed
